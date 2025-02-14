@@ -1,0 +1,196 @@
+(footprint "Anderson_powerpole_2w"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Dual banana socket, footprint - 2 x 6mm drills")
+	(tags "banana socket")
+	(property "Reference" "REF**"
+		(at 3.937 -7.62 0)
+		(layer "F.SilkS")
+		(uuid "a8a3e89f-a68d-4450-ae79-b90d8cca5e56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Anderson_powerpole_2w"
+		(at 4.064 5.08 0)
+		(layer "F.Fab")
+		(uuid "e6962fd4-19a5-4e04-b61f-91bcd2b232f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3009b704-24c2-49cc-a9b1-461efc8057eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "148bf67f-4305-490f-be91-ef8933843523")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5c83d03-f180-493b-ad42-4103226eb6bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.95 -6.744)
+		(end -3.95 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48c522c7-092c-41ea-b7c4-438e3072d3f3")
+	)
+	(fp_line
+		(start -3.95 -6.744)
+		(end 11.9 -6.744)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1741a424-fdad-4de5-bdbf-0a6f0dd14f12")
+	)
+	(fp_line
+		(start -3.95 3.175)
+		(end 11.938 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aab76376-6283-48a9-a18b-850a312634d8")
+	)
+	(fp_line
+		(start 11.938 -6.744)
+		(end 11.938 3.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3cf150b-2ea7-4a3e-b556-35db8af66278")
+	)
+	(fp_line
+		(start -4.191 -6.998)
+		(end 12.192 -6.998)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "aeea4d7d-320d-48da-87cc-9f08cd3b1bbc")
+	)
+	(fp_line
+		(start -4.191 3.379)
+		(end -4.191 -6.998)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ce7082b-aac4-493d-baed-42ce8b535532")
+	)
+	(fp_line
+		(start 12.192 -6.998)
+		(end 12.192 3.379)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "765e502f-4491-4e93-9de8-b452884f0bcb")
+	)
+	(fp_line
+		(start 12.192 3.379)
+		(end -4.191 3.379)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a95ec257-484a-4e13-a43d-7114dfcec645")
+	)
+	(fp_text user "+"
+		(at -3.302 2.54 0)
+		(layer "F.SilkS")
+		(uuid "245af5a5-def4-4356-959a-53102267e32a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.732 -2.032 0)
+		(layer "F.Fab")
+		(uuid "8378a921-ca64-407d-b86e-ded01a995baa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 5.5 6)
+		(drill oval 4.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f0e3adc-1f9e-449e-8d4e-f20b44074262")
+	)
+	(pad "2" thru_hole oval
+		(at 7.9 0)
+		(size 5.5 6)
+		(drill oval 4.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1327352f-b569-4652-9bd8-828263867179")
+	)
+	(model "${KISYS3DMOD}/Connector.3dshapes/Banana_Jack_2Pin.wrl"
+		(offset
+			(xyz 14.98599977 0 0)
+		)
+		(scale
+			(xyz 2 2 2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

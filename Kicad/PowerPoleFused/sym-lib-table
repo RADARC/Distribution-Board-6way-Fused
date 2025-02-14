@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PowerPole-rescue")(type "KiCad")(uri "${KIPRJMOD}/PowerPole-rescue.kicad_sym")(options "")(descr ""))
+)
