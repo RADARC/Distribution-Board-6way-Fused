@@ -5,6 +5,499 @@
 	(uuid "cc0a013e-b43a-4aa3-aea7-ab24f4303efc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PowerPole-rescue:3557-20-SamacSys_Parts"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SamacSys_Parts_3557-20"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "355720"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.37"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "534-3557-20"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "3557-20"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "3557-20-SamacSys_Parts_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "3557-20-SamacSys_Parts_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PowerPole-rescue:Anderson_Powerpole_2w-SamacSys_Parts"
 			(pin_names
 				(offset 1.016)
@@ -136,6 +629,330 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "0"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0V reference potential for simulation"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 72.39 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d2d01a-a7ff-49b5-a973-fe02708de09a")
+	)
+	(junction
+		(at 92.71 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12b86286-f45e-4f3a-91a0-86470dec1c4d")
 	)
 	(junction
 		(at 57.15 82.55)
@@ -144,16 +961,70 @@
 		(uuid "1a3c62ae-1322-4c2b-8ad3-b5d71ad31f31")
 	)
 	(junction
+		(at 92.71 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c398ba1-f3de-4652-b999-2ed66b252ede")
+	)
+	(junction
+		(at 66.04 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21cf1654-5821-421a-b46c-dec071d92f39")
+	)
+	(junction
+		(at 92.71 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2708b4d7-7b73-47b9-86d8-5d7832bdc498")
+	)
+	(junction
+		(at 57.15 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "316d6ba5-d3cf-4ead-9586-1d7015842775")
+	)
+	(junction
+		(at 92.71 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e2eb00-8c58-4fa3-9610-b88287400dcd")
+	)
+	(junction
+		(at 72.39 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "377d6fef-8e9b-4236-be42-062982f769f2")
+	)
+	(junction
 		(at 57.15 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "379ef73d-51c8-4617-a785-bf4b5fccd1c1")
 	)
 	(junction
-		(at 53.34 91.44)
+		(at 92.71 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "469c1fbd-1a79-4183-a63b-d21ff3bf2ded")
+		(uuid "3bc39fed-d2bb-42d1-b84c-26ffd57830c9")
+	)
+	(junction
+		(at 57.15 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0b448a-00ed-4901-a9b8-ff059f023091")
+	)
+	(junction
+		(at 57.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51a1e65f-e3b5-4cf7-8a1a-d7263eb8b872")
+	)
+	(junction
+		(at 66.04 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5206628f-8be0-48c3-b3f4-f58542a0b9a0")
 	)
 	(junction
 		(at 57.15 93.98)
@@ -162,32 +1033,172 @@
 		(uuid "588b8dd4-83ca-411c-8c69-22183edff376")
 	)
 	(junction
+		(at 92.71 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0ffd63-be43-4699-9ba2-7190d89d8369")
+	)
+	(junction
+		(at 92.71 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "695e158f-dc5e-4530-88db-0d69d6b09144")
+	)
+	(junction
+		(at 64.77 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fc2e9ab-6223-4d93-a0a9-ad4cb0a8be90")
+	)
+	(junction
+		(at 92.71 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81c49364-2c90-4b4e-b542-5f1bc21527a1")
+	)
+	(junction
+		(at 72.39 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85027c38-b709-49dc-bc00-ec443aa583d9")
+	)
+	(junction
 		(at 57.15 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86ca6908-2b52-414f-8d78-0465db651855")
 	)
 	(junction
-		(at 53.34 114.3)
+		(at 52.07 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "973b2371-0942-410b-99c5-5219b5d9313c")
+		(uuid "90210579-9ae3-4d9a-a75a-1fce08f54f5d")
 	)
 	(junction
-		(at 53.34 80.01)
+		(at 54.61 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d3bc0d7-ee32-4b7f-ac38-4a5d3524674f")
+		(uuid "aa2c0441-994d-4101-9077-0a8fd163ac4e")
 	)
 	(junction
-		(at 53.34 102.87)
+		(at 72.39 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3d23484-33c9-4d6a-ada4-f66f9a94b41f")
+		(uuid "bf6e48a4-b7e4-4524-b9ca-615a44c7a82b")
+	)
+	(junction
+		(at 92.71 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0cb5efb-1bca-45c7-8847-5dc9a1f74a5e")
+	)
+	(junction
+		(at 57.15 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c370d9e0-621e-403b-96a7-273b5a1c25ef")
+	)
+	(junction
+		(at 62.23 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6266741-86b8-4479-97ef-6aadc3b63073")
+	)
+	(junction
+		(at 63.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca234cf4-2912-4359-9044-43ea821210a8")
+	)
+	(junction
+		(at 66.04 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc798dc9-3296-4608-a91e-ce63da7625c2")
+	)
+	(junction
+		(at 72.39 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4d4721-d223-41c8-bdd6-5ff67103b8e0")
+	)
+	(junction
+		(at 57.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e09d205c-6330-437e-9548-1d9ae79e996d")
+	)
+	(junction
+		(at 92.71 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8961a4c-8d85-4574-8028-8252eaf25c9e")
+	)
+	(junction
+		(at 92.71 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f6401f-173e-4fac-a964-402f368eef95")
+	)
+	(junction
+		(at 72.39 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff7f7f90-1ab0-4013-9953-083f501a702b")
 	)
 	(wire
 		(pts
-			(xy 57.15 116.84) (xy 57.15 128.27)
+			(xy 44.45 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c2635c-a7a0-4b28-ad61-a7e8329c9b52")
+	)
+	(wire
+		(pts
+			(xy 55.88 120.65) (xy 57.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031e259f-4aab-4a74-a60d-423b92e6a2a5")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0adeb3ed-43e8-4cfd-be5e-e668eb3496c8")
+	)
+	(wire
+		(pts
+			(xy 62.23 125.73) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b32d998-b7da-4d6b-bafc-0dd7302b857c")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15490a8b-4187-410e-b057-3b99f954525e")
+	)
+	(wire
+		(pts
+			(xy 57.15 116.84) (xy 57.15 120.65)
 		)
 		(stroke
 			(width 0)
@@ -197,37 +1208,157 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 80.01) (xy 53.34 91.44)
+			(xy 44.45 80.01) (xy 66.04 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b938f5c-5e14-4ae5-b7e1-9a65798b9379")
+		(uuid "1e2977fa-36c8-417c-8b4c-53142657e86b")
 	)
 	(wire
 		(pts
-			(xy 44.45 68.58) (xy 53.34 68.58)
+			(xy 67.31 113.03) (xy 72.39 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a76d4d7-756b-44c0-ba7c-a646fd2a11e3")
+		(uuid "1efdbf37-0d9a-4aa8-8ca0-9f3cf6b8d4a5")
 	)
 	(wire
 		(pts
-			(xy 44.45 114.3) (xy 53.34 114.3)
+			(xy 57.15 110.49) (xy 57.15 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e053c8a-b241-414b-92cd-984a8f69e28e")
+		(uuid "24718d83-6679-4d30-9764-25516f7a7c4c")
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 57.15 82.55)
+			(xy 64.77 102.87) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290d519f-2569-4a12-8d28-68be9be9a20d")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b05b7bb-e9eb-4338-b5fe-173a31234625")
+	)
+	(wire
+		(pts
+			(xy 92.71 113.03) (xy 92.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34379432-2790-4582-8428-b8a7ad7d4327")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 92.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394dbf72-952d-4932-9710-4c337d454cf7")
+	)
+	(wire
+		(pts
+			(xy 67.31 102.87) (xy 67.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0191e1-c432-4b3f-879e-b521c0670433")
+	)
+	(wire
+		(pts
+			(xy 64.77 137.16) (xy 72.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427d4d55-1140-4050-96ac-11b0d504b9ae")
+	)
+	(wire
+		(pts
+			(xy 64.77 125.73) (xy 64.77 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49efda94-3a1f-4d71-bfb4-2ad8d58777bb")
+	)
+	(wire
+		(pts
+			(xy 54.61 128.27) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507e606f-5637-48ec-91f8-e26c89d1508e")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f2eae1-b595-4b86-b469-25cfd4e18ea3")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 57.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531735c9-2e03-4cbb-a135-a3d9b51afd75")
+	)
+	(wire
+		(pts
+			(xy 44.45 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540a2ade-6156-4443-abb7-b31b8e3ec06a")
+	)
+	(wire
+		(pts
+			(xy 44.45 91.44) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54620635-e05f-4b8d-a9cb-ab5675b7bc7f")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +1368,27 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 105.41) (xy 57.15 116.84)
+			(xy 52.07 71.12) (xy 57.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d394830-d94d-4427-919d-d05d18aff96a")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcb8933-1f2d-4de6-8f1a-fc7624472e0f")
+	)
+	(wire
+		(pts
+			(xy 57.15 105.41) (xy 57.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -247,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 128.27) (xy 57.15 128.27)
+			(xy 44.45 128.27) (xy 54.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -257,13 +1408,63 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 57.15 93.98)
+			(xy 57.15 82.55) (xy 57.15 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ddd647f-70e8-4797-bf09-5083920d3eee")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3e547d-7c89-46b2-b032-14a4aaebb400")
+	)
+	(wire
+		(pts
+			(xy 66.04 125.73) (xy 72.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7504ce2c-a689-4504-8579-d2f38ff9540d")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4f9473-3b47-4df7-a369-987ba4caf278")
+	)
+	(wire
+		(pts
+			(xy 54.61 128.27) (xy 57.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f640aed-3f0f-455b-8c2b-b11684563d1a")
+	)
+	(wire
+		(pts
+			(xy 63.5 114.3) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f733fe7-49c1-4e06-a196-e4561dff81c4")
 	)
 	(wire
 		(pts
@@ -277,13 +1478,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 68.58) (xy 53.34 80.01)
+			(xy 72.39 91.44) (xy 72.39 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90c31cbe-2001-448b-93e5-4bd5f75884cb")
+		(uuid "8c02388a-bfa8-4e8b-ba3b-3c64d905697b")
+	)
+	(wire
+		(pts
+			(xy 72.39 113.03) (xy 72.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f581327-9a1e-44bf-87a4-e61fa5cc521c")
 	)
 	(wire
 		(pts
@@ -297,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 125.73) (xy 72.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0e58c6-eee1-4b2c-9b87-38d2d429a322")
+	)
+	(wire
+		(pts
 			(xy 44.45 82.55) (xy 57.15 82.55)
 		)
 		(stroke
@@ -307,23 +1528,53 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 114.3) (xy 53.34 125.73)
+			(xy 92.71 100.33) (xy 92.71 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0aa8332-94db-4368-a2e4-0880b2b9e71c")
+		(uuid "9c80a7d2-54f2-4b99-90b5-56203fcc27a1")
 	)
 	(wire
 		(pts
-			(xy 44.45 91.44) (xy 53.34 91.44)
+			(xy 72.39 83.82) (xy 72.39 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2ee01ac-397b-48f3-98e0-971ec1a5cad2")
+		(uuid "9f10290f-e408-431b-9ff7-f02bf4ec757c")
+	)
+	(wire
+		(pts
+			(xy 44.45 125.73) (xy 62.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7ff57d-9fc8-4600-b41b-2d4692962fd2")
+	)
+	(wire
+		(pts
+			(xy 72.39 68.58) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a133fdcf-8b37-444b-bc92-2b42cd0e7dbc")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a155eb5e-4eb7-4e93-90ef-22171e8717fd")
 	)
 	(wire
 		(pts
@@ -337,27 +1588,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 80.01) (xy 53.34 80.01)
+			(xy 44.45 102.87) (xy 64.77 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9a10592-8e30-43a3-811e-f6cd0c89df25")
+		(uuid "a9f93a9b-51ec-4a56-b7d5-88f7b63804f2")
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 53.34 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa3cb3fb-1606-48da-b8e7-5db477cb5d03")
-	)
-	(wire
-		(pts
-			(xy 44.45 71.12) (xy 57.15 71.12)
+			(xy 44.45 71.12) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -367,27 +1608,97 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 102.87) (xy 53.34 102.87)
+			(xy 92.71 102.87) (xy 92.71 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3c7ea49-7a62-417a-91c3-185fd22af46e")
+		(uuid "acef50eb-4ffc-4f45-a40c-82f3a708e838")
 	)
 	(wire
 		(pts
-			(xy 44.45 125.73) (xy 53.34 125.73)
+			(xy 57.15 99.06) (xy 58.42 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6fa4c2e-d8e5-4c65-973a-8c5437920c27")
+		(uuid "b6f9fdf8-24da-46ea-b831-cba4102f0f40")
 	)
 	(wire
 		(pts
-			(xy 57.15 93.98) (xy 57.15 105.41)
+			(xy 92.71 125.73) (xy 92.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc72587c-b5a5-4f26-8488-d6aa1eed8a6f")
+	)
+	(wire
+		(pts
+			(xy 92.71 128.27) (xy 92.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1080f8-facd-4abc-bd5b-f39a992a6b23")
+	)
+	(wire
+		(pts
+			(xy 72.39 137.16) (xy 72.39 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0565f41-dc99-46eb-b373-7a6798f2dc3b")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42a9721-f473-40a1-99ac-641fe4f0084d")
+	)
+	(wire
+		(pts
+			(xy 66.04 68.58) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ebd1be-ac9f-48e4-b9c9-7d36021e3994")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f33218-812e-4196-83f4-ac8717a2a791")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a43ed9-7093-4b66-86ea-5186d227869d")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 57.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -397,13 +1708,73 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 102.87) (xy 53.34 114.3)
+			(xy 57.15 87.63) (xy 58.42 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fac280f8-3485-4ff7-991c-5b2229c5e5d8")
+		(uuid "db5c00ae-008c-48a0-8cdd-af5294012496")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 72.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58bfde4-67f6-48a5-9542-72899c994262")
+	)
+	(wire
+		(pts
+			(xy 92.71 137.16) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede09dba-9c08-4605-bd8d-3c860a2c3ce4")
+	)
+	(wire
+		(pts
+			(xy 55.88 121.92) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef894020-1f89-430a-a58c-bca4b591cc64")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ba946f-48d3-4529-9f54-f2dbc7223858")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 92.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5913245-2126-458a-8587-71683b41a081")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 66.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b9dce4-b4a8-4b85-8d8d-2731f1c448b3")
 	)
 	(symbol
 		(lib_id "PowerPole-rescue:Anderson_Powerpole_2w-SamacSys_Parts")
@@ -468,6 +1839,76 @@
 			(project ""
 				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0009dd29-f0b4-463e-9e91-2a2190d446c5")
+		(property "Reference" "R5"
+			(at 66.04 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 66.04 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 61.722 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfcd901b-71a3-4bdd-98b1-d3c229431296")
+		)
+		(pin "2"
+			(uuid "01234289-df25-4020-b2d9-01001419ec37")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -542,6 +1983,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a5d28f-d763-4602-96d9-04844cdfdfbc")
+		(property "Reference" "D4"
+			(at 59.3725 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.3725 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c63fb8de-0046-472b-a8c9-c4ef976fa94f")
+		)
+		(pin "1"
+			(uuid "52746fec-5fc2-4565-90dd-a0ffa0f3a275")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a8d5498-186b-4678-955f-1acf03e8e5ee")
+		(property "Reference" "R6"
+			(at 64.77 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 64.77 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 60.452 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "961a29bc-45f5-40df-a4fa-eff3de725a61")
+		)
+		(pin "1"
+			(uuid "7ce021d3-ecd3-4c29-9c2c-a939afbebca2")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 142.24 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290e8d6e-be1a-4e82-ab85-40cd953cf3f8")
+		(property "Reference" "#PWR01"
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5b666a8-43d5-4483-8d90-b69458e8274d")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PowerPole-rescue:Anderson_Powerpole_2w-SamacSys_Parts")
 		(at 39.37 102.87 0)
 		(mirror y)
@@ -604,6 +2249,72 @@
 			(project "PowerPole"
 				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "302c1091-6e75-4221-9877-8bf6d0ab0e1b")
+		(property "Reference" "#FLG02"
+			(at 133.35 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "538d4b45-b155-4f4b-9168-ccb299c8f9b3")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -746,6 +2457,278 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 66.04 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d0e6047-e995-4636-9c25-412ec217d1b4")
+		(property "Reference" "R1"
+			(at 68.58 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2K2"
+			(at 68.58 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 67.818 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "928e48ff-d20c-4f7a-bd15-2d8b2680468b")
+		)
+		(pin "1"
+			(uuid "4cc67a8d-1a9e-42de-9445-67c310efb4e6")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerPole-rescue:3557-20-SamacSys_Parts")
+		(at 72.39 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "609a8aed-dc62-44d4-a2dd-5b0dfabfd6bd")
+		(property "Reference" "F2"
+			(at 82.55 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SamacSys_Parts_3557-20"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuses:355720"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-20"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-20"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f312a7c-5f2d-4a78-8967-0d18767f1dc2")
+		)
+		(pin "4"
+			(uuid "c3b1d3be-6e69-4359-a145-9ee7543e215d")
+		)
+		(pin "2"
+			(uuid "6bd11bf1-38f9-4ac3-b7da-449500bd7281")
+		)
+		(pin "3"
+			(uuid "c4610908-8eff-4acf-934f-4f81380da344")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 92.71 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f48a11-0b29-4630-a743-4b57f287bfc0")
+		(property "Reference" "#PWR02"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 96.52 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aac1b3bf-0dcb-4a8c-b6ef-45c65c44cecf")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PowerPole-rescue:Anderson_Powerpole_2w-SamacSys_Parts")
 		(at 39.37 125.73 0)
 		(mirror y)
@@ -808,6 +2791,1430 @@
 			(project "PowerPole"
 				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 52.07 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e53758-0d79-4a55-9a2a-b2237db824aa")
+		(property "Reference" "#GND02"
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27279b5-393a-4792-b673-d91fefdc745f")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerPole-rescue:3557-20-SamacSys_Parts")
+		(at 72.39 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71d9a94b-d918-4748-9d9d-0009f4455a9b")
+		(property "Reference" "F5"
+			(at 82.804 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SamacSys_Parts_3557-20"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuses:355720"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-20"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-20"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7741fdb-f57f-419d-afc0-55d6e81bd6a7")
+		)
+		(pin "2"
+			(uuid "f6808e23-7747-4906-9e20-53d746fab1f2")
+		)
+		(pin "4"
+			(uuid "d1b3f0a7-dc36-4879-b88a-44005fe96cd3")
+		)
+		(pin "1"
+			(uuid "34b682fd-7b87-45c6-b30a-1b7e1aa78a01")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799de7d6-db60-4089-9b6e-827f7bce5924")
+		(property "Reference" "R3"
+			(at 68.58 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 68.58 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 64.262 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c143cd19-8d94-4914-aa3d-27698171c50d")
+		)
+		(pin "1"
+			(uuid "a5050067-c310-4519-9b89-1329588d321d")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerPole-rescue:3557-20-SamacSys_Parts")
+		(at 72.39 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86ad631b-0f8b-4bb7-9954-df1163e8c63c")
+		(property "Reference" "F1"
+			(at 82.55 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SamacSys_Parts_3557-20"
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuses:355720"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-20"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-20"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9dc845ec-8148-4503-a73a-8cfe741da3d2")
+		)
+		(pin "1"
+			(uuid "2bfe4626-5d0c-4bbf-8840-28c33e7a034d")
+		)
+		(pin "2"
+			(uuid "7f73e2f7-7cf6-463f-8799-186e53d8226d")
+		)
+		(pin "3"
+			(uuid "899cc2c2-18c8-444b-bc9a-62da3277c7c4")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d8c956-4715-4754-854f-e9e4742c3d91")
+		(property "Reference" "R2"
+			(at 68.58 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 68.58 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 64.262 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb9e833-348b-4fb1-847c-b3746b07f170")
+		)
+		(pin "2"
+			(uuid "79083fd6-5544-4929-829e-48a666dadfe5")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b438c5a-2b9d-4ac9-8daa-76baa9271a54")
+		(property "Reference" "D2"
+			(at 60.6425 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 60.6425 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1453e9c1-65d5-4e0c-971c-46493ff87c2b")
+		)
+		(pin "2"
+			(uuid "c8514257-fc0c-4d8d-9b44-4b10c89d0403")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerPole-rescue:3557-20-SamacSys_Parts")
+		(at 72.39 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bfdd9ba-cf28-496a-9fff-fe54ba98ecbb")
+		(property "Reference" "F4"
+			(at 82.296 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SamacSys_Parts_3557-20"
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuses:355720"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-20"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-20"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c05a571-9117-46cc-be8e-5ca9bc18d1fa")
+		)
+		(pin "4"
+			(uuid "57756322-2f70-49dc-af5e-f6e9eb97b884")
+		)
+		(pin "2"
+			(uuid "741725ba-baa1-43b5-b647-1d8d4bbbcc81")
+		)
+		(pin "1"
+			(uuid "a377e93b-4a75-42c7-a901-e7967c6ad4f2")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 133.35 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab371b6e-04ba-4dfa-96da-700fc4c8e45b")
+		(property "Reference" "#GND01"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aff05d25-066f-4f53-aa9e-dfb050dbac2e")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aced3ac1-8de0-48e2-8193-7d3d872d3fd6")
+		(property "Reference" "D3"
+			(at 60.6425 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 60.6425 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71dd1738-846e-440e-8591-7084430c61b5")
+		)
+		(pin "1"
+			(uuid "6228c33c-2d73-4a07-9e07-58e3d96b54a9")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad58e9c6-d4f5-44ec-bba2-d56113a08b02")
+		(property "Reference" "D1"
+			(at 60.6425 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 60.6425 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fc72e77-11eb-476a-ab6f-e0b9d06cf4e9")
+		)
+		(pin "1"
+			(uuid "3d77d5a4-eef8-4c94-979d-914b1208ed82")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerPole-rescue:3557-20-SamacSys_Parts")
+		(at 72.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c28d4a51-a86e-4142-8732-86ed6dc747e5")
+		(property "Reference" "F6"
+			(at 82.55 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SamacSys_Parts_3557-20"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuses:355720"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-20"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-20"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa30d3a-1b00-4854-8de5-1bd28f0d3494")
+		)
+		(pin "4"
+			(uuid "e9bbdc98-a381-41b2-9288-0fd73ce9fbf9")
+		)
+		(pin "2"
+			(uuid "b7e4fd21-cb54-4fea-a700-94ae66dacde3")
+		)
+		(pin "3"
+			(uuid "9833b698-0796-4164-8c47-2b87376d259c")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbc70f37-c5c8-4a96-a6ca-446b0ce5ba80")
+		(property "Reference" "R4"
+			(at 67.31 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 67.31 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 62.992 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d56d90f3-e0e2-42d0-a309-f95448fda159")
+		)
+		(pin "1"
+			(uuid "ebd5b240-a842-4ed9-a0fb-1cd53e3b0603")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 142.24 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7353747-d117-4c9c-bf10-4063de66526f")
+		(property "Reference" "#FLG01"
+			(at 144.145 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af5a57ca-7c30-4f97-8946-95d916297b93")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerPole-rescue:3557-20-SamacSys_Parts")
+		(at 72.39 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d3899d-0ec4-4e7b-a3a5-af25fbd2dee3")
+		(property "Reference" "F3"
+			(at 83.312 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SamacSys_Parts_3557-20"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuses:355720"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14226"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fuse Holder T/H 2 IN 1 AUTO BLDE HOLDER, YELLOW 20A"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-20"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-20?qs=iR2ablhfrmF%2FWhSZXEYN7g%3D%3D"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-20"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9caaf4ca-cbee-4480-91d4-52b0c853a6a5")
+		)
+		(pin "3"
+			(uuid "9f143884-cbc2-4275-b080-b8de60815db4")
+		)
+		(pin "4"
+			(uuid "2dbee07e-1b1b-4392-b488-d42f2cccffe2")
+		)
+		(pin "2"
+			(uuid "8ab6ce38-b9b4-478e-9c1f-10f19f112b48")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 58.42 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b670ae-6184-4dce-b5c5-78afac0113b7")
+		(property "Reference" "D6"
+			(at 56.8325 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 56.8325 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 58.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 58.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b2f76dc-8609-4712-8bd9-b467fe4ba724")
+		)
+		(pin "1"
+			(uuid "572d06b7-7057-4659-80eb-42e826ff9862")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefcabf8-52bf-4ba8-89fc-0a5e1fd15b7b")
+		(property "Reference" "D5"
+			(at 58.1025 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 58.1025 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6126a87-6cb8-478c-90f4-0a36c515e1c9")
+		)
+		(pin "1"
+			(uuid "ad85aa4c-c1ba-49c1-a017-ad67425f4651")
+		)
+		(instances
+			(project ""
+				(path "/cc0a013e-b43a-4aa3-aea7-ab24f4303efc"
+					(reference "D5")
 					(unit 1)
 				)
 			)
