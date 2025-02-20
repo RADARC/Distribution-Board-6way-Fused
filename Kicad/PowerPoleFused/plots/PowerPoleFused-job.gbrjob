@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.6"
+      "Version": "8.0.8-2.fc41"
     },
-    "CreationDate": "2024-11-19T18:22:25+00:00"
+    "CreationDate": "2025-02-20T10:07:07+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PowerPole",
-      "GUID": "506f7765-7250-46f6-9c65-2e6b69636164",
+      "Name": "PowerPoleFused",
+      "GUID": "506f7765-7250-46f6-9c65-46757365642e",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 96.57,
-      "Y": 43.23
+      "X": 96.8305,
+      "Y": 83.362
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,53 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25,
       "TrackToRegion": 1.0,
       "RegionToRegion": 1.0
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "PowerPole-F_Cu.gbr",
+      "Path": "PowerPoleFused-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerPole-B_Cu.gbr",
+      "Path": "PowerPoleFused-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerPole-F_Paste.gbr",
+      "Path": "PowerPoleFused-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerPole-B_Paste.gbr",
+      "Path": "PowerPoleFused-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerPole-F_Silkscreen.gbr",
+      "Path": "PowerPoleFused-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerPole-B_Silkscreen.gbr",
+      "Path": "PowerPoleFused-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerPole-F_Mask.gbr",
+      "Path": "PowerPoleFused-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PowerPole-B_Mask.gbr",
+      "Path": "PowerPoleFused-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PowerPole-Edge_Cuts.gbr",
+      "Path": "PowerPoleFused-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
